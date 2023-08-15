@@ -23,8 +23,6 @@ const Post = () => {
 
 	// [이벤트 매핑] useNavigate에서 navigate 가져오기
 	const navigate = useNavigate();
-	// [api 연결] Todo: useSnackbar에서 enqueueSnackbar 가져오기
-	// 작성해주세요.
 
 	//url에서 param 가져오기
 	const {id} = useParams();
@@ -47,7 +45,7 @@ const Post = () => {
 	}
 
 	const goBackList = () => {
-		// [이벤트 매핑] Todo: 게시판 페이지로 이동
+		// [이벤트 매핑] Todo: 게시판 페이지로 이동('/board')
 		// 작성해주세요.
 	};
 
@@ -64,7 +62,7 @@ const Post = () => {
 			// [api 연결] Todo: 중복 api 호출 후 delete 버튼 활성화를 위해 isDeleteLoading false로 변경
 			// 작성해주세요.
 
-			// [이벤트 매핑] Todo: 게시판 페이지로 이동
+			// [이벤트 매핑] Todo: 게시판 페이지로 이동('/board')
 			// 작성해주세요.
 		} catch (err) {
 			enqueueSnackbar(err, {variant: 'error'});

@@ -29,9 +29,10 @@ const NavGroup = ({ item }) => {
 				return <NavItem key={menuItem.id} item={menuItem} level={1} />;
 			default:
 				return (
-					<Typography key={menuItem.id} variant="h6" color="error" align="center">
-						Fix - Group Collapse or Items
-					</Typography>
+					<></>
+					// <Typography key={menuItem.id} variant="h6" color="error" align="center">
+					// 	Fix - Group Collapse or Items
+					// </Typography>
 				);
 		}
 	});

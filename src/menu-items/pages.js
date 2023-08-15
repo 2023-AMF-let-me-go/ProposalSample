@@ -1,10 +1,10 @@
 // assets
-import { LoginOutlined, ProfileOutlined } from '@ant-design/icons';
+import {LoginOutlined, ProfileOutlined} from '@ant-design/icons';
 
 // icons
 const icons = {
 	LoginOutlined,
-	ProfileOutlined
+	ProfileOutlined,
 };
 
 // ==============================|| MENU ITEMS - EXTRA PAGES ||============================== //
@@ -20,7 +20,7 @@ const pages = {
 			type: 'item',
 			url: '/auth/login',
 			icon: icons.LoginOutlined,
-			target: true
+			target: true,
 		},
 		{
 			id: 'register',
@@ -28,9 +28,33 @@ const pages = {
 			type: 'item',
 			url: '/auth/sign-up',
 			icon: icons.ProfileOutlined,
-			target: true
-		}
-	]
+			target: true,
+		},
+		{
+			id: 'requirementBoard',
+			title: 'RequirementBoard',
+			type: 'item',
+			url: '/auth/requirementBoard',
+			icon: icons.ProfileOutlined,
+			target: true,
+		},
+		{
+			id: 'proposal',
+			title: 'Proposal',
+			type: 'item',
+			url: '/auth/proposal',
+			icon: icons.ProfileOutlined,
+			target: true,
+		},
+		{
+			id: 'proposalDatail',
+			title: 'ProposalDetail',
+			type: 'item',
+			url: '/auth/proposalDatail',
+			icon: icons.ProfileOutlined,
+			target: true,
+		},
+	],
 };
 
 export default pages;

@@ -59,7 +59,7 @@ const CreatePost = () => {
 					enqueueSnackbar('게시글을 등록하였습니다.', {
 						variant: 'success',
 					});
-					// [이벤트 매핑] Todo: 게시판 페이지로 이동
+					// [이벤트 매핑] Todo: 게시판 페이지로 이동지('/board')
 					// 작성해주세요.
 				}}
 			>

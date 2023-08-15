@@ -3,6 +3,7 @@ import {default as axios} from 'utils/axiosHandler';
 const POST_URL = '/api/v1/posts';
 
 // [1 게시판] 게시글 리스트 읽기(get)
+//export const getPostList = async () => axios.get(POST_URL);
 export const getPostList = async (params) => axios.get(POST_URL, params);
 
 // [2 게시글 작성] Todo: 게시글 생성(post)
